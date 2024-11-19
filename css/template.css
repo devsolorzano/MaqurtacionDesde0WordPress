@@ -1,0 +1,292 @@
+.swiper-horizontal {
+    background-image: url(../img/foto-fondo.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+}
+
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+}
+
+.contenedor-centro {
+    max-width: 620px;
+    margin: auto;
+}
+
+.contenedor-centro p {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.contenedor-centro h1 {
+    font: normal normal bold 45px / 47px Outfit;
+}
+
+.contenedor-centro .btn {
+    border: 2px solid #FFFFFF;
+    border-radius: 21px;
+    width: 154px;
+    height: 42px;
+    font: normal normal bold 17px / 28px Outfit;
+}
+
+.intro h2 {
+    font: normal normal normal 15px / 26px Outfit;
+    letter-spacing: 0px;
+    color: #7772F6 !important;
+}
+
+.intro h3 {
+    font: normal normal 600 24px / 28px Outfit;
+    color: #242424;
+}
+
+.intro .btn {
+    border: 2px solid #7575EE;
+    border-radius: 21px;
+    background: transparent;
+    color: #7575EE;
+    font: normal normal bold 17px / 28px Outfit;
+    width: 154px;
+}
+
+.card-body img {
+    text-align: center;
+    width: 100%;
+}
+
+.card-body h4 {
+    letter-spacing: 0px;
+    color: #7772F6;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Outfit';
+    padding-top: 26px;
+}
+
+.card-body h3 a {
+    font: normal normal 600 24px / 28px Outfit;
+    letter-spacing: 0px;
+    color: #242424 !important;
+}
+
+.card-body h3 {
+    font: normal normal 600 24px / 28px Outfit;
+    letter-spacing: 0px;
+    color: #242424 !important;
+}
+
+.newsletter h4 {
+    text-align: center;
+    font: normal normal normal 15px / 26px Outfit;
+    letter-spacing: 0px;
+    color: #7772F6;
+    margin-bottom: 0px;
+}
+
+.newsletter h5 {
+    font: normal normal 600 24px / 28px Outfit;
+    letter-spacing: 0px;
+    color: #242424;
+    margin-bottom: 27px;
+}
+
+.form-control {
+    border: 2px solid #7575EE !important;
+    border-radius: 21px !important;
+    width: 100% !important;
+    max-width: 281px !important;
+}
+
+.newsletter .btn-submit {
+    background: #7772F6;
+    border: 2px solid #7575EE;
+    border-radius: 21px;
+    width: 68px;
+    height: 38px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    left: 55%;
+}
+
+.form-control::placeholder {
+    color: #7772F6;
+    font: normal normal normal 17px/28px 'Outfit', sans-serif;
+}
+
+.form-control::-webkit-input-placeholder {
+    /* Chrome, Safari, Opera */
+    color: #7772F6;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #7772F6;
+}
+
+.form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #7772F6;
+}
+
+.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #7772F6;
+}
+
+.newsletter .btn-submit {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.newsletter .btn-submit img {
+    transition: transform 0.3s ease;
+}
+
+.newsletter .btn-submit:hover {
+    background-color: #5555ff;
+    transform: scale(1.1);
+    /* Aumenta ligeramente el botón */
+}
+
+.newsletter .btn-submit:hover img {
+    transform: translateX(3px);
+    /* Mueve la flecha hacia la derecha al hacer hover */
+}
+
+.form-check.mt-3 {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Estilos para centrar el contenido de la sección de descarga */
+.download .container {
+    display: flex;
+    flex-direction: column;
+    /* Coloca la imagen encima del texto */
+    align-items: center;
+    /* Centra el contenido horizontalmente */
+}
+
+.download img {
+    width: 100px;
+    /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-bottom: 15px;
+    /* Espacio entre la imagen y el texto */
+}
+
+.download a {
+    font-size: 18px;
+    /* Ajusta el tamaño del texto según sea necesario */
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    /* Transición suave para el hover */
+}
+
+.download a:hover {
+    color: #ccc;
+    /* Cambia el color del enlace al pasar el cursor */
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.post-destacado {
+    border-radius: 0px !important;
+}
+
+.post-destacado .card-body {
+    padding: 0;
+}
+
+.card-content {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+.slider-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-lines {
+    display: flex;
+    gap: 8px;
+}
+
+.button-lines span {
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.button-lines span.swiper-button-prev {
+    width: 30px;
+    opacity: 1;
+}
+
+.button-lines span.swiper-button-next {
+    width: 30px;
+    opacity: 1;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    top: 79%;
+}
+
+.swiper-backface-hidden .swiper-slide {
+    background-repeat: no-repeat !important;
+}
+
+
+@media (max-width: 768px) {
+    .newsletter .btn-submit {
+        left: 59%;
+    }
+}
+
+@media (max-width: 425px) {
+    .newsletter .btn-submit {
+        left: 66%;
+    }
+}
+
+@media (max-width: 375px) {
+    .newsletter .btn-submit {
+        left: 69%;
+    }
+}
+
+@media (max-width: 320px) {
+    .newsletter .btn-submit {
+        left: 72%;
+    }
+}
